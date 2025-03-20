@@ -122,14 +122,13 @@ body.dark-mode li {
   float: right;
   transition: 0.3s;
   position: relative;
-  top: -35px;  
+  top: -25px;  
 }
 
 .delete-btn:hover {
   background-color: rgb(156, 102, 102);
 }
 
-/* Media Query para dispositivos móviles */
 @media (max-width: 600px) {
   .container {
       width: 95%;
