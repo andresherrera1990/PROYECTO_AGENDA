@@ -22,8 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         listItem.innerHTML = `
           <div class="appointment-name"><strong>${name}</strong></div>
           <div class="appointment-date-time">${date} - ${time}</div>
-          <button class="delete-btn">Eliminar</button>
-        `;
+          <button class="delete-btn">Eliminar</button>`;
 
         appointmentList.appendChild(listItem);
 
@@ -39,4 +38,4 @@ document.addEventListener("DOMContentLoaded", function () {
       darkModeToggle.addEventListener("click", function () {
         document.body.classList.toggle("dark-mode");
       });
-    });SADF
+    });
