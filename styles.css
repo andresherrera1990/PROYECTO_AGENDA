@@ -15,8 +15,8 @@ body.dark-mode {
 }
 
 .container {
-  width: 90%;
-  max-width: 500px;  /* Máximo tamaño para pantallas grandes */
+  width: 100%;
+  max-width: 600px;  
   margin: auto;
   padding: 30px;
   background: rgba(255, 255, 255, 0.8);
