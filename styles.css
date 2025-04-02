@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('logo.jpg'); 
+  background-image: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url('logo.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -14,19 +14,51 @@ body.dark-mode {
   color: #e0e0e0;
 }
 
-.container {
-  width: 95%;
-  max-width: 550px;  
+body.dark-mode h1,
+body.dark-mode h2 {
+  color: #e0e0e0;
+}
+
+body.dark-mode p {
+  color: #b0b0b0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -40px; 
+  margin-top: 10px; 
+}
+
+.header-logo {
+  max-height: 120px; /* Aumenta el tamaño del logo */
+  margin-bottom: 10px;
+  border-radius: 10px; /* Agrega bordes redondeados al logo */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega sombra al logo */
+  transition: transform 0.3s;
+  margin-top: 20px; /* Agrega margen superior al logo */
   margin: auto;
+}
+
+.header-subtitle {
+  margin-top: -20px; /* Agrega margen superior al subtítulo */
+}
+
+.container, .appointments-container {
+  width: 95%;
+  max-width: 610px;
+  margin: 30px auto;
   padding: 30px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  margin-top: 50px;
   transition: background 0.3s;
 }
 
-body.dark-mode .container {
+body.dark-mode .container,
+body.dark-mode .appointments-container {
   background: rgba(18, 18, 18, 0.9);
 }
 
@@ -41,7 +73,7 @@ body.dark-mode h2 {
 
 form input {
   display: block;
-  width: 90%;
+  width: 80%;
   margin: 10px auto;
   padding: 12px;
   border: 1px solid #ccc;
@@ -56,7 +88,7 @@ body.dark-mode form input {
 }
 
 button {
-  background-color: #444;
+  background-color: #007bff;
   color: white;
   padding: 12px 15px;
   border: none;
@@ -69,12 +101,12 @@ button {
 }
 
 button:hover {
-  background-color: #333;
+  background-color: #0056b3;
 }
 
 #dark-mode-toggle {
   position: fixed;
-  top: 15px;
+  top: 30px; /* Baja el botón */
   right: 15px;
   background-color: #444;
   color: white;
@@ -122,15 +154,56 @@ body.dark-mode li {
   float: right;
   transition: 0.3s;
   position: relative;
-  top: -25px;  
+  top: -25px;
 }
 
 .delete-btn:hover {
   background-color: rgb(156, 102, 102);
 }
 
+.social-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #0056b3;
+}
+
+.input-group {
+  position: relative;
+  margin: 10px auto;
+  width: 90%;
+}
+
+.input-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+form input {
+  padding-left: 35px;
+}
+
 @media (max-width: 600px) {
-  .container {
+  .container, .appointments-container {
       width: 95%;
       padding: 20px;
       margin-top: 30px;
@@ -156,11 +229,11 @@ body.dark-mode li {
       right: 10px;
       padding: 8px;
       font-size: 14px;
-      width: auto;      
+      width: auto;
   }
 
   .delete-btn {
-    width: auto; /* Evita que el botón de eliminar sea demasiado ancho */
+    width: auto;
     padding: 8px 12px;
 }
 }
