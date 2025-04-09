@@ -9,7 +9,7 @@ body {
   padding: 0;
   color: #333;
   transition: background 0.3s, color 0.3s;
-  font-size: 16px; /* Ajuste para móviles */
+  font-size: 16px; 
 }
 
 body.dark-mode {
@@ -24,7 +24,7 @@ body.dark-mode {
   padding: 0;
   color: #e0e0e0;
   transition: background 0.3s, color 0.3s;
-  font-size: 16px; /* Ajuste para móviles */
+  font-size: 16px; 
   filter: brightness(0.9);
 }
 
@@ -35,12 +35,12 @@ body.dark-mode h2 {
 
 body.dark-mode h2 {
   color: #e0e0e0;
-  font-size: 20px; /* Ajuste para móviles */
+  font-size: 20px; 
 }
 
 body.dark-mode p {
   color: #b0b0b0;
-  font-size: 14px; /* Ajuste para móviles */
+  font-size: 14px; 
   margin: 0;
 }
 
@@ -55,7 +55,7 @@ body.dark-mode p {
 }
 
 .header-logo {
-  max-height: 100px; /* Ajuste para móviles */
+  max-height: 100px; 
   margin-bottom: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -66,14 +66,14 @@ body.dark-mode p {
 
 .header-subtitle {
   margin-top: -20px;
-  font-size: 14px; /* Ajuste para móviles */
+  font-size: 14px; 
 }
 
 .container, .appointments-container {
   width: 95%;
   max-width: 610px;
-  margin: 20px auto; /* Ajuste para móviles */
-  padding: 20px; /* Ajuste para móviles */
+  margin: 20px auto; 
+  padding: 20px; 
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -96,7 +96,7 @@ body.dark-mode h2 {
 
 form input {
   display: block;
-  width: 90%; /* Ajuste para móviles */
+  width: 90%; 
   margin: 10px auto;
   padding: 12px;
   border: 1px solid #ccc;
@@ -116,7 +116,7 @@ button {
   padding: 12px 15px;
   border: none;
   border-radius: 5px;
-  font-size: 16px; /* Ajuste para móviles */
+  font-size: 16px; 
   font-family: Helvetica, sans-serif;
   margin-top: 10px;
   transition: 0.3s;
@@ -128,8 +128,8 @@ button:hover {
 
 #dark-mode-toggle {
   position: fixed;
-  top: 30px; /* Mantenemos la posición original */
-  right: 15px; /* Mantenemos la posición original */
+  top: 30px; 
+  right: 15px; 
   background-color: #444;
   color: white;
   padding: 10px;
@@ -147,7 +147,7 @@ button:hover {
 ul {
   list-style: none;
   padding: 0;
-  margin-top: 15px; /* Ajuste para móviles */
+  margin-top: 15px; 
 }
 
 li {
@@ -159,7 +159,7 @@ li {
   text-align: left;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   transition: background 0.3s, color 0.3s;
-  font-size: 14px; /* Ajuste para móviles */
+  font-size: 14px; 
 }
 
 body.dark-mode li {
@@ -178,7 +178,7 @@ body.dark-mode li {
   transition: 0.3s;
   position: relative;
   top: -25px;
-  font-size: 12px; /* Ajuste para móviles */
+  font-size: 12px; 
 }
 
 .delete-btn:hover {
@@ -186,7 +186,7 @@ body.dark-mode li {
 }
 
 .social-links {
-  margin-top: 15px; /* Ajuste para móviles */
+  margin-top: 15px; 
   text-align: center;
 }
 
@@ -194,15 +194,15 @@ body.dark-mode li {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 35px; /* Ajuste para móviles */
-  height: 35px; /* Ajuste para móviles */
-  margin: 0 8px; /* Ajuste para móviles */
+  width: 35px; 
+  height: 35px; 
+  margin: 0 8px; 
   background-color: #007bff;
   color: white;
   border-radius: 50%;
   text-decoration: none;
   transition: background-color 0.3s;
-  font-size: 16px; /* Ajuste para móviles */
+  font-size: 16px; 
 }
 
 .social-icon:hover {
@@ -212,7 +212,7 @@ body.dark-mode li {
 .input-group {
   position: relative;
   margin: 10px auto;
-  width: 90%;
+  width: 90%;  
 }
 
 .input-group i {
@@ -221,10 +221,10 @@ body.dark-mode li {
   top: 50%;
   transform: translateY(-50%);
   color: #777;
-  font-size: 16px; /* Ajuste para móviles */
+  font-size: 16px; 
 }
 
 form input {
   padding-left: 35px;
-  font-size: 16px; /* Ajuste para móviles */
+  font-size: 16px; 
 }

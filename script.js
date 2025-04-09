@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("appointment-form");
   const nameInput = document.getElementById("name");
-  const cedulaInput = document.getElementById("cedula");
+  const cedulaInput = document.getElementById("cedula");  
   const dateInput = document.getElementById("date");
   const timeInput = document.getElementById("time");
   const appointmentList = document.getElementById("appointment-list");
