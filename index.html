@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agenda de Citas</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Citas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <div class="header">
-    <img src="logo.jpg" alt="Logo de la Empresa" class="header-logo">
-    <h1 class="header-title">SARA PAZ, NAILS AND MAKEUP</h1>
-    <p class="header-subtitle">Tu belleza es nuestra prioridad.</p>
-  </div>
+    <div class="header">
+        <img src="logo.jpg" alt="Logo de la Empresa" class="header-logo">
+        <h1 class="header-title">SARA PAZ, NAILS AND MAKEUP</h1>
+        <p class="header-subtitle">Tu belleza es nuestra prioridad.</p>
+    </div>
 
-  <button id="dark-mode-toggle">Modo Oscuro</button>
+    <button id="dark-mode-toggle" class="dark-mode-button">Modo Oscuro</button>
 
-  <div class="container">
-    <h1>Agenda de Citas</h1>
-    <form id="appointment-form">
-      <div class="input-group">
-        <i class="fas fa-user"></i>
-        <input type="text" id="name" placeholder="       Nombre Cliente / Descripción" required>
-      </div>
-      <div class="input-group">
-        <i class="fas fa-id-card"></i>
-        <input type="text" id="cedula" placeholder="       Número de Cédula" required>
-      </div>
-      <div class="input-group">
-        <i class="fas fa-calendar-alt"></i>
-        <input type="date" id="date" required>
-      </div>
-      <div class="input-group">
-        <i class="fas fa-clock"></i>
-        <input type="time" id="time" required>
-      </div>
-      <button type="submit">Guardar</button>
-    </form>
-  </div>
+    <div class="container">
+        <h1>Agenda de Citas</h1>
+        <form id="appointment-form">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" id="name" placeholder="     Nombre Cliente / Descripción" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-id-card"></i>
+                <input type="text" id="cedula" placeholder="     Número de Cédula" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-calendar-alt"></i>
+                <input type="date" id="date" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-clock"></i>
+                <input type="time" id="time" required>
+            </div>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
 
-  <div class="appointments-container">
-    <h2>Citas Agendadas</h2>
-    <ul id="appointment-list"></ul>
-  </div>
+    <div class="appointments-container">
+        <h2>Citas Agendadas</h2>
+        <ul id="appointment-list"></ul>
+    </div>
 
-  <div class="social-links">
-    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-    <a href="#" class="social-icon"><i class="https://www.instagram.com/saritapaznails/"><i class="fab fa-instagram"></i></a>
-  </div>
+    <div class="social-links">
+        <a href="https://www.facebook.com/saritaandreina.pazsalas" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/saritapaznails/" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
